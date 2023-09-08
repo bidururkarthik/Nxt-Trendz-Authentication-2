@@ -17,14 +17,6 @@ const Header = props => {
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
             alt="website logo"
           />
-
-          <button type="button" className="nav-mobile-btn">
-            <img
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
-              alt="nav logout"
-              className="nav-bar-img"
-            />
-          </button>
         </div>
 
         <div className="nav-content nav-bar-large-container">
@@ -80,6 +72,13 @@ const Header = props => {
               className="nav-bar-img"
             />
           </li>
+           <button type="button" className="nav-mobile-btn">
+            <img
+              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
+              alt="nav logout"
+              className="nav-bar-img"
+            />
+          </button>     
         </ul>
       </div>
     </nav>
